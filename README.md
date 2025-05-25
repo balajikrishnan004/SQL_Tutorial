@@ -1,10 +1,8 @@
 # SQL
 
-[https://www.youtube.com/playlist?list=PLYM2_EX_xVvUBh28ZT2i-jH7kBkTfB_W2](https://www.youtube.com/playlist?list=PLYM2_EX_xVvUBh28ZT2i-jH7kBkTfB_W2)
+
 
 # Introduction
-
-[https://www.notion.so](https://www.notion.so)
 
 - Database is collection of data
 - Structured Query Language(SQL) lets you perform CRUD operations Create/Read/Update or Delete operations on a database
