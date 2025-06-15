@@ -169,48 +169,21 @@ FROM table_name
 WHERE condition;
 ```
 
-Following can be used within the condition.
+### SQL Comparison Operators
 
-| 
-  =
-   | 
-  Equal
-   |
-| --- | --- |
-| 
-  >
-   | 
-  Greater than
-   |
-| 
-  <
-   | 
-  Less than
-   |
-| 
-  >=
-   | 
-  Greater than or equal
-   |
-| 
-  <=
-   | 
-  Less than or equal
-   |
-| 
-  <>
-   | 
-  Not equal. Note: In some versions of SQL
-  this operator may be written as !=
-   |
-| 
-  BETWEEN
-   | 
-  Between a certain range
-   |
-| LIKE | Search for a pattern |
-| IN | To specify multiple possible values for a column |
-| NOT | negation |
+| Operator | Description |
+|----------|-------------|
+| `=`      | Equal to |
+| `>`      | Greater than |
+| `<`      | Less than |
+| `>=`     | Greater than or equal to |
+| `<=`     | Less than or equal to |
+| `<>`     | Not equal to<br>*(In some SQL versions, use `!=` instead)* |
+| `BETWEEN`| Checks if a value is within a range |
+| `LIKE`   | Searches for a pattern (used with wildcards) |
+| `IN`     | Specifies multiple possible values |
+| `NOT`    | Negates a condition |
+
 
 AND/OR can be used to combine the relational operators.
 
